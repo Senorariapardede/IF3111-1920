@@ -13,7 +13,7 @@
 
             <a class="add" href="<?php base_url();?>Add"><b>Buat Laporan/Komentar</b></a>
             <p class="jud">Laporan Terakhir</p>
-            <br><br>
+            <hr><br><br>
 
             <?php foreach ($home as $a):?>
                 <?php $id = $a['id']; ?>
@@ -38,7 +38,7 @@
                 <?php echo 'Lampiran : ';
                    echo $a['lampiran']; ?>
             </div>
-            <br><br>
+            <br><hr><br>
 
             <?php endforeach; ?>
             <img class="img" src="<?php echo base_url();?>other/gmbr/titik.jpg">
