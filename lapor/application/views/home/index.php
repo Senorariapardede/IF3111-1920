@@ -1,7 +1,7 @@
 <html>
     <head>
         <title><?php echo $title;?></title>
-        <link rel="stylesheet" type="text/css" href="other/css/style.css>v=1.1">
+        <link rel="stylesheet" type="text/css" href="other/css/style.css?v=1.1">
         <script src="other/val/validation.js"></script>
     </head>
     <body>
@@ -12,7 +12,7 @@
             </form>
 
             <a class="add" href="<?php base_url();?>Add"><b>Buat Laporan/Komentar</b></a>
-            <p calss="jud">Laporan Terakhir</p>
+            <p class="jud">Laporan Terakhir</p>
             <br><br>
 
             <?php foreach ($home as $a):?>
@@ -29,7 +29,7 @@
                 ?>
 
             <div class="time">
-                <?php $data=new DateTime($a['waktu']);
+                <?php $date=new DateTime($a['waktu']);
                    echo 'Waktu : ';
                    echo $date->format('d-m-Y H:i');?>
             </div>
