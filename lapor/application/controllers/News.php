@@ -10,6 +10,7 @@ class News extends CI_Controller{
     public function view($slug = NULL){
         $data['ShowNews'] = $this->M_news->GetNews($slug);
         $this->load->view('V_news/view',$data);
+		$this->load->view('templates/footer');
     }
 }
 
