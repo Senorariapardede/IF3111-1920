@@ -2,22 +2,22 @@
 Tugas IF3111 - Pengembangan Aplikasi Berbasis Web - RA
 
 Nama Kelompok :
-14117022 Putri Maulidya Yasshiro
-14117096 Yosi Maridianti
-14117115 Senora Ria Pardede 
+1. 14117022 Putri Maulidya Yasshiro
+2. 14117096 Yosi Maridianti
+3. 14117115 Senora Ria Pardede 
 
 ___________________________________________________________
 
 Cara instalasi framework CodeIgniter dan Koneksi Database dengan MySQL.
 # Framework yang digunakan adalah CodeIgniter. 
 Cara instalasi :
-1)Langkah pertama adalah buka website “codeigniter.com” lalu pilih menu download untuk mendownload Framework CodeIgniter.
-2)Pilih versi CodeIgniter dengan codeigniter versi 3. 
-3)Letakkan penyimpanan codeigniter ke dalam local disc C pada folder xampp htdocs.
-4)Setelah itu, extract menjadi sebuah folder.
-5)Kemudian rename folder codeigniter menjadi folder "tubes_web" agar disesuaikan dengan tugas kita..
-6)Terakhir, untuk memastikan codeigniter telah terinstall dan dapat digunakan adalah dengan masuk ke web browser dan mengetikkan "localhost/tubes_web".
-7)Lalu akan tampil sebuah halaman yang menyatakan selamat datang di codeigniter seperti gambar di bawah ini.
+1) Langkah pertama adalah buka website “codeigniter.com” lalu pilih menu download untuk mendownload Framework CodeIgniter.
+2) Pilih versi CodeIgniter dengan codeigniter versi 3. 
+3) Letakkan penyimpanan codeigniter ke dalam local disc C pada folder xampp htdocs.
+4) Setelah itu, extract menjadi sebuah folder.
+5) Kemudian rename folder codeigniter menjadi folder "tubes_web" agar disesuaikan dengan tugas kita..
+6) Terakhir, untuk memastikan codeigniter telah terinstall dan dapat digunakan adalah dengan masuk ke web browser dan mengetikkan "localhost/tubes_web".
+7) Lalu akan tampil sebuah halaman yang menyatakan selamat datang di codeigniter seperti gambar di bawah ini.
 
 # Aplikasi pengolahan database yang digunakan adalah MySQL.
 Cara koneksi basis data :
