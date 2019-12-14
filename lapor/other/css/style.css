@@ -1,0 +1,209 @@
+*{
+    margin: 0px auto;
+}
+html,body{
+    height: 100%;
+}
+#container{
+    position: relative;
+}
+#header{
+    width: 100%;
+    background: rgb(248, 26, 26);
+    padding: 10px;W
+}
+h1{
+background-color: rgb(248, 26, 26);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+.box {
+    overflow: hidden;
+    background: rgb(248, 26, 26);
+}
+.box a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.box a:hover {
+    background-color: #fff;
+    color: blue;
+}
+#judul{
+    width: 100%;
+    position: fixed;
+    background: yellow;
+    padding: 30px;
+}
+#content{
+    position: relative;
+    background: #eee;
+    margin: 0px 20px;
+}
+#footer{
+    width: 100%;
+    padding: 4px;
+    background: #333;
+    color: #fff;
+    position: absolute;
+    clear: both;
+    text-align: center;
+}
+.utama{
+    margin-top: auto;
+    margin:0px 170px auto 170px;
+}
+.search1 {
+    display: flex;
+    justify-content: center;
+}
+.search2 {
+    margin:10px auto;
+    padding:20px;
+    width: 100%;
+    background: white;
+    border:1px solid black;
+}
+.button {
+    margin:10px auto;
+    padding:10px 55px;
+    border:1px solid black;
+    background-color:white;
+    color:black;
+}
+.button:hover  {
+    background-color:white;
+    color:blue;
+}   
+textarea{
+    width: 100%;
+    height: 40%;
+    border: 1px solid black;
+}
+select{
+    padding: 5px 5px ;
+    border: 1px solid black;
+    font-size: 15px;
+}
+.submit{
+  border: 1px solid black;
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  color: black;
+  padding: 10px 35px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+}
+.tombol{
+    background: none;
+    color: black;
+    padding: 10px 35px;
+    margin: 5px 10px;
+    text-decoration: none;
+    font-size: 19pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    display: flex;
+    margin-left: 100%;
+}
+.tombol1{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 19px;
+    padding: 15px 15px;
+    float: right;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.jud {
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.judd{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+.add{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+hr{
+    color: black;
+    border: 1px solid black;
+}
+.detail{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 13px;
+    display: flex;
+    float: right;
+    margin-right: 10px;
+    color: black;
+}
+.tm{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    float: right;
+    color: black;
+
+}
+.time{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    float: right;
+    margin-right: 15px;
+    color: black;
+
+}
+
+.wh{
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+
+}
+.lampir{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 13px;
+    display: flex;
+    float: left;
+    color: black;
+}
+.t2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    float: left;
+    margin-right: 20px;
+    color: black;
+}
+
+.img{
+    padding: 22px; 
+    width: 22px; 
+    display: block;
+}
+
+.notfound{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 22px;
+}
+
