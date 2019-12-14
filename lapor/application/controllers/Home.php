@@ -6,7 +6,7 @@ class Home extends CI_Controller{
         $data['title'] = 'Halaman Utama Simple Lapor';
     // $this->load->view('templates/heades_utama');
         $this->load->view('home/index',$data);
-    // $this->load->view('templates/footer');
+        $this->load->view('templates/footer');
     }
 }
 
